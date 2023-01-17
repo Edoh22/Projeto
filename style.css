@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family= Oswald: wght @300 & display=swap');
+
+body {
+    margin: 0%;
+}
+
+.main-div {
+    background-color: rgb(53, 44, 75);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right-div {
+    height: 100vh;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #f0ffffde;
+}
+
+.left-div {
+    margin: 0%;
+    height: 100vh;
+    width: 50vw;
+    object-fit:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-div > h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 300%;
+    display: inline;
+    color: rgba(0, 255, 128, 0.425);
+    -webkit-text-stroke: 1px #FFF;
+}
+
+.login {
+    background-color: bisque;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: rgb(47, 40, 65);
+    border-radius: 30px;
+    box-shadow: 0px 10px 40px #0000006e;
+}
+
+.login > h1 {
+    color: #00ff806b;
+    font-weight: 900;
+    font-size: 40px;
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-text-stroke: 1px #FFF;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #0000006e;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #f0ffffde;
+    border-radius: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #f0ffff94;
+}
+
+.textfield > button {
+
+    box-sizing: border-box;
+}
+
+.bnt-login {
+    width: 90%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #00ff80a2;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.image {
+    width: 35vw;
+}
